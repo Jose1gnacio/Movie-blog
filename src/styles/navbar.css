@@ -1,0 +1,37 @@
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar {
+    background-color: #F5F5F5;
+    margin: auto;
+    
+    border-radius: 22px;
+    width: 600px;
+    height: 70px;
+    text-align: center;
+    box-shadow: 4px 4px 8px  rgba(255, 0, 0, 1);
+    font-family: Poppins, sans-serif;
+}
+
+.button {
+
+    box-sizing: border-box;
+    cursor: pointer;
+    border: 0;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    background-color: #ff6468;
+    background-image: radial-gradient(circle at 20% -10%, #ff8989, #fe5353 60%, #ac0000 92%);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    line-height: 20px;
+    transition: all .2s cubic-bezier(.645, .045, .355, 1);
+    display: flex;
+}
