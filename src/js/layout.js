@@ -10,7 +10,8 @@ import { RatedMovie } from "./views/ratedMovie";
 import { PopularMovie } from "./views/popularMovie";
 import { RatedTv } from "./views/ratedTv";
 import { PopularTv } from "./views/popularTv";
-
+import { OneMovie } from "./views/oneMovie";
+import { OneTvSerie } from "./views/oneTvSerie";
 import { Navbar } from "./component/navbar";
 
 
@@ -32,6 +33,8 @@ const Layout = () => {
 					<Route path="/popularMovie" element={<PopularMovie />} />
 					<Route path="/ratedTv" element={<RatedTv />} />
 					<Route path="/popularTv" element={<PopularTv />} />
+					<Route path="/oneMovie/:movieid" element={<OneMovie />} />
+					<Route path="/oneTvSerie/:tvid" element={<OneTvSerie />} />
 					<Route path="*" element={<h1>Not found!</h1>} />
 				</Routes>
 
